@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+img svg {
+  vertical-align: middle;
+}
+
+.conteiner {
+  width: 80%;
+  margin: 0% auto;
+  max-width: 1320px;
+  padding: 2rem 0 0 0;
+}
+
+header {
+  background-color: #4e8397;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.nav__list {
+  list-style: none;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  margin: 1.5rem 0 0 1.5rem;
+  padding-left: 1rem;
+}
+
+.introduccion {
+  background-color: #4e8397;
+  padding: 4rem 0 0 0;
+}
+
+.titulo {
+  text-transform: capitalize;
+  color: #ffffff;
+  font-size: 4.5rem;
+  font-weight: 400;
+  padding-bottom: 2rem;
+}
+
+.presentacion {
+  font-size: 1.4rem;
+  display: inline-block;
+  margin-top: 1rem;
+  padding-bottom: 1.5rem;
+}
+.redes__sociales {
+  text-align: center;
+  background-color: #4e8397;
+  padding: 2rem 2rem 2rem 2rem;
+}
+.footer {
+  background-color: gray;
+  padding-top: 2rem;
+}
+.contacto {
+  color: black;
+  font-size: 15px;
+}
+.direccion {
+  color: black;
+}
+.telefono {
+  color: black;
+}
+
+.formulario {
+  background-color: gray;
+  width: 80%;
+  margin: 0% auto;
+  max-width: 1320px;
+  padding: 2rem 0 0 0;
+  border: black double;
+}
+
+ACA EMPIEZA PAGINA CONTACTO .titulo__formulario {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font: weight 100%;
+}
+
+.input__uno {
+  background-color: white;
+}
+
+.input__dos {
+  background-color: white;
+}
+
+.input__tres {
+  background-color: white;
+}
+
+.input__cuatro {
+  background-color: white;
+}
+
+.conteiner__formulario {
+  background-color: #4e8397;
+  padding: 4rem 4rem 4rem 4rem;
+}
+
+#conteiner__servicios {
+  background-color: #4e8397;
+  padding: 4rem 4rem 14rem 4rem;
+}
+
+ACA EMPIEZA PAGINA NOSOTROS.presentacion__nosotros {
+  background-color: #4e8397;
+  width: 80%;
+  margin: 0% auto;
+  max-width: 1320px;
+  padding: 2rem 0 0 0;
+}
+
+.descripcion {
+  font-size: 1.4rem;
+  display: inline-block;
+}
+
+.titulo__uno {
+  font-weight: 700;
+  display: inline-block;
+  text-align: center;
+  padding: 0 0 4rem 0;
+}
+
+<!-- ACA COMIENZA PAGINA GALERIA -- > .conteiner__galeria {
+  background-color: #4e8397;
+}
+
+.article__servicios {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  flex: 0 1 300px;
+}
+
+.imagen__kinesiologia {
+  width: 300px;
+  height: 300px;
+}
+
+.card__titulo {
+  font-size: 1.5rem;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ACA COMIENZA GRIDS DE INDEX */
+
+.grids__bodypadre {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+/* ACA COMIENZA MEDIA QUERIES */
+@media (max-width: 320px) {
+  header {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+/* ACA COMIENZA CSS PARA TARJETA DE GALERIA CON GRID */
+
+.grid__conteiner {
+  background-color: #4e8397;
+  padding: 30px 30px 30px 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-content: center;
+}
+
+.grid__tarjeta {
+  padding: 5px 5px 5px 5px;
+  border: 1px solid black;
+  background-color: beige;
+}
+
+.grid__tarjetaimg {
+  width: 250px;
+  height: 250px;
+  align-content: center;
+  justify-content: center;
+}

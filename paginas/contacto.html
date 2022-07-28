@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="/imagenes/abuelos.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https: //fonts.googleapis.com/css2? family= Montserrat:ital,wght@0,400;0,500;0,700;0,900;1,100 & display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Contacto</title>
+  </head>
+  <body>
+    <header>
+      <nav class="conteiner">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="/index.html">Inicio</a></li>
+          <li><a class="nav__link" href="nosotros.html">Nosotros</a></li>
+          <li><a class="nav__link" href="servicios.html">Servicios</a></li>
+          <li><a class="nav__link" href="galeria.html">Galeria</a></li>
+          <li><a class="nav__link" href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="introduccion">
+        <form action="" class="formulario">
+          <fieldset>
+            <legend class="titulo__formulario">Solicitud de Información</legend>
+            <br />
+            <div><strong> Datos del solicitante</strong></div>
+            <br />
+            <label for="nombre-apellido">Nombre y Apellido:</label>
+            <input
+              class="input__uno"
+              type="text"
+              name="nombre"
+              id="nombre-apellido"
+            />
+            <br />
+            <br />
+            <label for="email">Email:</label>
+            <input class="input__tres" type="text" name="email" id="email" />
+            <br />
+            <br />
+            <label for="Telefono-celular"> Telefono/Celular</label>
+            <input
+              class="input__dos"
+              type="text"
+              name="telefono-celular"
+              id="telefono-celular"
+            />
+            <br />
+            <br />
+            <div><strong> Datos del paciente </strong></div>
+            <br />
+            <div>Abuelo</div>
+            <input type="radio" name="sexo" id="Abuelo" />
+            <div>Abuela</div>
+            <input type="radio" name="sexo" id="Abuela" />
+            <br />
+            <div>
+              <strong> Seleccionar</strong>
+            </div>
+            <select name="modalidad" id="modalidad">
+              <option value="Particular">Particular</option>
+              <option value="Obra Social">Obra Social</option>
+            </select>
+            <select name="habitacion" id="habitacion">
+              <option value="Privada">Privada</option>
+              <option value="Compartida">Compartida</option>
+            </select>
+            <br />
+            <br />
+            <label for="mensaje">Consultas</label>
+            <textarea name="mensaje" id="mensaje" cols="20" rows="5"></textarea>
+            <br />
+            <br />
+            <input
+              class="input__cuatro"
+              type="submit"
+              value="Enviar Solicitud"
+            />
+          </fieldset>
+        </form>
+      </section>
+      <footer class="footer">
+        <div>
+          <h2 class="contacto">
+            <strong>Contacto</strong>
+            <p class="direccion">
+              Dirección: 25 de Mayo 581, Barrio Don Bosco San Nicolas de los
+              Arroyos
+            </p>
+            <p class="telefono">Telefono: (336)-4465801</p>
+          </h2>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
