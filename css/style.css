@@ -103,10 +103,28 @@ header {
   text-align: center;
   padding: 20px;
 }
-.redes__sociales {
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.masinformacion__index {
   text-align: center;
-  background-color: #666f88;
-  padding: 2rem 2rem 2rem 2rem;
+  font-size: medium;
+  padding-top: 50px;
+  animation-name: aparecer;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+
+.masinformacion__parrafo {
+  color: #c9e9fc;
 }
 .footer {
   background-color: #c9e9fc;
