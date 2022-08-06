@@ -224,3 +224,62 @@ header {
   padding-top: 100px;
   background-color: #666f88;
 }
+
+/* ACA COMIENZA LA NAV BAR */
+
+.nav {
+  width: 95%;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+.nav-toggle {
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  width: 3rem;
+  height: 3rem;
+  padding: 0em;
+  border-radius: 0.25rem;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.55);
+  transition: opacity 250ms ease;
+  position: absolute;
+  left: 0;
+}
+
+.nav-toggle:focus,
+.nav-toggle:hover {
+  opacity: 0.75;
+}
+
+.hamburger {
+  width: 50%;
+  position: relative;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+  display: block;
+  margin: 0 auto;
+  height: 3px;
+  background: white;
+}
+
+.hamburger::before,
+.hamburger::after {
+  content: "";
+  width: 100%;
+}
+
+.hamburger::before {
+  transform: translateY(-6px);
+}
+
+.hamburger::after {
+  transform: translateY(3px);
+}
+
+.nav__item {
+  margin-top: 0.75rem;
+}
