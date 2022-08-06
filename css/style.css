@@ -47,7 +47,7 @@ header {
 
 .introduccion {
   background-color: #666f88;
-  padding: 4rem 0 0 0;
+  padding: 2rem 0 0 0;
 }
 
 .presentacion {
@@ -82,110 +82,13 @@ header {
   animation-iteration-count: 5s;
   animation-delay: 1s;
   text-transform: capitalize;
-  color: #ffffff;
+  color: #c8def2;
   font-size: 4.5rem;
   font-weight: 400;
   padding-bottom: 2rem;
   text-align: center;
 }
 
-/* .input__botonindex {
-  width: 200px;
-  height: 50px;
-  background-color: #4e8397;
-  font-size: 1.5rem;
-  border-style: ridge;
-  font-weight: bold;
-  color: black; */
-
-.boton__index {
-  text-align: center;
-  padding: 20px;
-  color: #c9e9fc;
-}
-
-@keyframes aparecer {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-.masinformacion__index {
-  text-align: center;
-  font-size: medium;
-  padding-top: 50px;
-  animation-name: aparecer;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-delay: 1s;
-}
-
-.masinformacion__parrafo {
-  color: #c9e9fc;
-}
-.footer {
-  background-color: #c9e9fc;
-  padding-top: 2rem;
-}
-.contacto {
-  color: black;
-  font-size: 15px;
-}
-.direccion {
-  color: black;
-}
-.telefono {
-  color: black;
-}
-
-/* ACA COMIENZA PAGINA CONTACTO */
-.titulo__formulario {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font: weight 100%;
-}
-
-.formulario {
-  background-color: #87a1ab;
-  width: 60%;
-  margin: 50px 50px 50px 50px;
-  max-width: 1320px;
-  padding: 20px;
-  border: black double;
-  text-align: center;
-}
-
-.introduccion__contacto {
-  text-align: center;
-  background-color: #666f88;
-}
-
-.subtitulo__formulario {
-  font-size: 1 rem;
-}
-/* .input__uno {
-  background-color: white;
-}
-
-.input__dos {
-  background-color: white;
-}
-
-.input__tres {
-  background-color: white;
-}
-
-.input__cuatro {
-  background-color: white;
-}
-
-.conteiner__formulario {
-  background-color: #4e8397;
-  padding: 4rem 4rem 4rem 4rem;
-}
- */
 /* ACA COMIENZA PAGINA NOSOTROS */
 
 .presentacion__nosotros {
@@ -208,28 +111,6 @@ header {
   padding: 0 0 4rem 0;
 }
 
-/* ACA COMIENZA PAGINA SERVICIOS */
-
-.article__servicios {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  flex-wrap: wrap;
-  border: 1px solid black;
-  flex: 0 1 300px;
-}
-
-.imagen__kinesiologia {
-  width: 300px;
-  height: 300px;
-}
-
-.card__titulo {
-  font-size: 1.5rem;
-  margin: 10px;
-  align-items: center;
-  justify-content: center;
-}
 /* ACA COMIENZA PAGINA SERVICIOS NUEVA */
 
 .conteiner__servicios {
@@ -314,11 +195,32 @@ header {
   padding: 10px 0 10px 0px;
 }
 
-.footer__galeria {
-  background-color: gray;
-  padding: 20px;
-}
-
 .main__galeria {
   background-color: #4e8397;
+}
+
+/* ACA COMIENZA FOOTER DE PAGINAS */
+
+.footer__redes {
+  text-align: center;
+  background-color: #c8def2;
+  padding-top: 30px;
+}
+
+.footer__contacto {
+  background-color: #c8def2;
+  padding-left: 15px;
+  padding-top: 30px;
+}
+
+.contacto {
+  font-size: medium;
+}
+
+/* ACA COMIENZA BOTON MAS INFORMACION DE PAGINAS */
+.contenedor__botonmasinformacion {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 100px;
+  background-color: #666f88;
 }
