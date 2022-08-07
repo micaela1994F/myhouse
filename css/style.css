@@ -18,8 +18,12 @@ img svg {
 
 /* ACA COMIENZA PAGINA INDEX */
 .conteiner {
-  width: 80%;
+  width: 100%;
+  /* visibility: hidden; */
+  /* height: 0; */
   margin: 0% auto;
+  /* position: absolute; */
+  font-size: 1rem;
   max-width: 1320px;
   padding: 2rem 0 0 0;
   text-align: center;
@@ -282,4 +286,18 @@ header {
 
 .nav__item {
   margin-top: 0.75rem;
+}
+
+.nav--visible {
+  visibility: visible;
+  height: auto;
+  position: relative;
+}
+
+img,
+svg {
+  vertical-align: middle;
+}
+img {
+  max-width: 100%;
 }
